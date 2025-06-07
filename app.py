@@ -126,6 +126,6 @@ if __name__ == "__main__":
         "app:app",
         host=host,
         port=port,
-        reload=debug,
+        reload=True,
         log_level="info"
     )
